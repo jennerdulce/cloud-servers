@@ -2,7 +2,7 @@ name: Beanstalk Deploy
 on:
   push:
     branches:
-    - master
+    - main
     
 jobs:
   build:
