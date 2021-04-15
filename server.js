@@ -9,7 +9,7 @@ app.use(express.json());
 let data = {};
 
 app.get('/', (req, res) => {
-  res.status(200).send('IT IS WORKING')
+  res.status(200).send('THIS SHOULD UPDATE FROM GITHUB')
 })
 
 app.post('/data', (req, res) => {
