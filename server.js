@@ -9,7 +9,7 @@ app.use(express.json());
 let data = {};
 
 app.get('/', (req, res) => {
-  res.status(200).send('FANG IS THE BEST DOG')
+  res.status(200).send('IT IS WORKING')
 })
 
 app.post('/data', (req, res) => {
