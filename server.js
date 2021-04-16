@@ -9,7 +9,7 @@ app.use(express.json());
 let data = {};
 
 app.get('/', (req, res) => {
-  res.status(200).send('UPDATED HOME PAGE')
+  res.status(200).send('ANOTHER UPDATED PAGE')
 })
 
 app.post('/data', (req, res) => {
